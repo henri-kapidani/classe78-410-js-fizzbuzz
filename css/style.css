@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: salmon;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 1rem;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.squares {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.sq {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5rem;
+	height: 5rem;
+	background-color: gold;
+}
+
+.fizz {
+	background-color: brown;
+}
+
+.buzz {
+	background-color: blueviolet;
+}
+
+.fizzbuzz {
+	background-color: greenyellow;
+}
